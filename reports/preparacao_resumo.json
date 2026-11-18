@@ -1,0 +1,25 @@
+{
+  "avaliacoes_total": 100000,
+  "com_comentario": 43386,
+  "sem_comentario_descartadas": 56614,
+  "descartadas_muito_curtas": 6213,
+  "descartadas_duplicadas_no_pedido": 7,
+  "sem_pedido_correspondente": 0,
+  "sem_categoria": 1069,
+  "sem_data_entrega": 1921,
+  "documentos_finais": 37166,
+  "nota_distribuicao": {
+    "1": 9022,
+    "2": 2163,
+    "3": 3375,
+    "4": 5162,
+    "5": 17444
+  },
+  "palavras_mediana": 11.0,
+  "palavras_p95": 34.0,
+  "palavras_max": 48,
+  "periodo": [
+    "2016-09-04",
+    "2018-10-17"
+  ]
+}

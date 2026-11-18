@@ -1,0 +1,1031 @@
+[
+  {
+    "esperado": "dentro",
+    "tipo": "geral",
+    "pergunta": "Quais são os principais problemas relatados pelos clientes em suas avaliações?",
+    "filtros": [
+      "nota 1 a 3 (a pergunta pede reclamações)"
+    ],
+    "veredito": "SUPORTADA",
+    "recusou": false,
+    "portao": {
+      "top_sim": 0.6657,
+      "cobertura": 0.75,
+      "ausentes": [
+        "relatad"
+      ],
+      "ok": true,
+      "motivo": null
+    },
+    "n_evidencias": 12,
+    "citados": [
+      "r002226",
+      "r007632",
+      "r009454",
+      "r010330",
+      "r013905",
+      "r017975",
+      "r018565",
+      "r019775",
+      "r025948",
+      "r031238",
+      "r032056",
+      "r033597"
+    ],
+    "citacoes_validas": true,
+    "resposta": "Entre as reclamações (notas 1 a 3), o problema mais forte é a entrega. Os outros temas aparecem menos.\n\n- **Atraso e produto não recebido:** é o tema com mais menções no recorte, 4.122 de 14.560 avaliações para prazo e atraso e 3.295 para produto não recebido (busca por palavra-chave, aproximada). Os clientes relatam demora [r007632] [r019775] e produto que não chegou depois de mais de 20 dias [r002226].\n- **Atendimento e vendedor:** 2.614 avaliações citam o tema. Há queixas de falta de respeito e de promessas não cumpridas [r002226], e de falta de comprometimento com a venda [r033597]. Também há críticas à venda de item sem estoque [r031238] e à comunicação sobre problema com os Correios [r032056].\n- **Produto diferente, com defeito ou abaixo do esperado:** 1.197 avaliações citam produto diferente ou errado e 1.114 citam defeito e qualidade. Nas evidências aparecem baixa qualidade [r019775] e produto que não correspondeu às expectativas [r010330].\n- **Entrega parcial ou item faltando:** 865 avaliações citam o tema. Um cliente diz que nem todos os produtos foram enviados [r018565].\n- **Frete caro:** aparece em uma avaliação [r007632]. É pouco para concluir algo.\n\nAlguns comentários são vagos e não dizem o motivo da insatisfação [r017975] [r025948] [r009454] [r013905]. As contagens vêm de palavras-chave e uma avaliação pode contar em mais de um tema. Os temas \"qualidade (elogio)\" e \"entrega rápida (elogio)\" também aparecem no recorte de notas baixas, então a busca por palavra-chave capta menções que não são queixas. Eu os deixei de fora.",
+    "segundos": 19.2
+  },
+  {
+    "esperado": "dentro",
+    "tipo": "entrega",
+    "pergunta": "O que os clientes relatam sobre problemas relacionados à entrega?",
+    "filtros": [],
+    "veredito": "SUPORTADA",
+    "recusou": false,
+    "portao": {
+      "top_sim": 0.8257,
+      "cobertura": 1.0,
+      "ausentes": [],
+      "ok": true,
+      "motivo": null
+    },
+    "n_evidencias": 12,
+    "citados": [
+      "r002808",
+      "r003227",
+      "r004993",
+      "r008411",
+      "r012759",
+      "r018565",
+      "r019280",
+      "r025519",
+      "r026721",
+      "r032971",
+      "r033872",
+      "r035128"
+    ],
+    "citacoes_validas": true,
+    "resposta": "**O que aparece nas avaliações recuperadas:**\n\n- **Produto não chegou:** é o relato mais grave. Vários clientes dizem que o produto não foi entregue ou que ainda esperam [r019280] [r032971] [r002808] [r004993].\n- **Atraso:** aparece em avaliações com nota de 1 a 5 [r012759] [r035128] [r003227] [r033872]. Em [r019280] e [r012759] os registros mostram entrega 50 e 27 dias após o prazo.\n- **Entrega parcial:** um cliente diz que não mandaram todos os produtos [r018565].\n- **Reincidência:** um cliente diz ser a segunda vez que tem problemas com entrega [r026721].\n- **Culpa dos Correios ou da transportadora:** alguns clientes atribuem o problema a eles, e não à loja. Em dois casos isso aparece junto com nota alta ou com disposição de comprar de novo [r008411] [r025519] [r033872].\n\n**Pontos de atenção:**\n\n- Muitos comentários só dizem \"problemas com a entrega\", sem detalhar o que houve [r012759] [r026721].\n- Em alguns casos o comentário fala de atraso, mas o registro mostra entrega no prazo [r035128] [r003227] [r033872]. A percepção do cliente pode divergir do prazo prometido.\n\n**Dimensão no recorte** (busca por palavra-chave, aproximada): 11.975 avaliações citam prazo e atraso, 3.499 citam produto não recebido e 1.011 citam item faltando ou entrega parcial, em 37.166 avaliações com comentário.",
+    "segundos": 16.7
+  },
+  {
+    "esperado": "dentro",
+    "tipo": "elogio",
+    "pergunta": "Quais aspectos da experiência de compra são mais elogiados pelos clientes?",
+    "filtros": [
+      "nota 4 ou 5 (a pergunta pede elogios)"
+    ],
+    "veredito": "PARCIAL",
+    "recusou": false,
+    "portao": {
+      "top_sim": 0.7649,
+      "cobertura": 0.8,
+      "ausentes": [
+        "elogiad"
+      ],
+      "ok": true,
+      "motivo": null
+    },
+    "n_evidencias": 12,
+    "citados": [
+      "r001947",
+      "r009137",
+      "r010499",
+      "r010903",
+      "r013071",
+      "r018031",
+      "r021487",
+      "r029255",
+      "r029481",
+      "r033373",
+      "r035053",
+      "r037085"
+    ],
+    "citacoes_validas": true,
+    "resposta": "**O que os números do recorte indicam.** Entre as 22.606 avaliações com nota 4 ou 5, os elogios à entrega rápida (9.524) e à qualidade (9.197) aparecem mais que os demais temas. Depois vêm atendimento e vendedor (2.732), embalagem (913) e preço e custo-benefício (879). A contagem é por palavra-chave e aproximada, então serve como ordem de grandeza.\n\n**O que as avaliações recuperadas mostram:**\n- **Entrega:** elogiam a entrega no prazo ou antes dele, incluindo a nota fiscal e a compra chegando como combinado [r001947] [r029255] [r018031].\n- **Atendimento e suporte:** aparece como motivo de satisfação e de intenção de comprar de novo [r013071] [r029255] [r021487].\n- **Produto:** há elogios à qualidade ou à satisfação com o item [r037085] [r010499].\n- **Experiência de compra em geral:** vários elogios são genéricos e não dizem qual etapa agradou [r009137] [r010903] [r033373] [r035053]. Dois clientes dizem que voltarão a comprar [r021487] [r029481].\n\n**Limite da resposta:** a maioria das avaliações recuperadas elogia a \"experiência\" sem detalhar o motivo. Embalagem e preço têm contagem no recorte, mas nenhuma avaliação recuperada os cita. Por isso o ranking vem só da contagem aproximada, e as avaliações servem como exemplos dos temas de entrega, atendimento e produto.",
+    "segundos": 15.6
+  },
+  {
+    "esperado": "dentro",
+    "tipo": "insatisfeito",
+    "pergunta": "Quais padrões podem ser identificados nas avaliações de clientes insatisfeitos?",
+    "filtros": [
+      "nota 1 ou 2 (cliente insatisfeito)"
+    ],
+    "veredito": "PARCIAL",
+    "recusou": false,
+    "portao": {
+      "top_sim": 0.6445,
+      "cobertura": 1.0,
+      "ausentes": [],
+      "ok": true,
+      "motivo": null
+    },
+    "n_evidencias": 12,
+    "citados": [
+      "r006528",
+      "r007803",
+      "r008148",
+      "r011525",
+      "r014405",
+      "r015618",
+      "r016135",
+      "r018038",
+      "r019775",
+      "r020986",
+      "r024860",
+      "r034618"
+    ],
+    "citacoes_validas": true,
+    "resposta": "A amostra recuperada é pequena (12 avaliações) e várias são genéricas, então os padrões abaixo são indicativos e não conclusivos.\n\n**Padrões nas avaliações recuperadas**\n- **Produto diferente do pedido ou da descrição:** [r018038], [r008148], [r006528], [r016135].\n- **Qualidade ou defeito:** produto com riscos ou de baixa qualidade [r006528], [r014405], [r019775].\n- **Atraso na entrega:** [r007803], [r019775], [r020986].\n- **Atendimento ruim ou falta de retorno:** pedido de cancelamento sem resposta [r011525], empresa que \"não dá satisfação\" [r020986], \"falta de compromisso\" [r007803].\n- **Entrega parcial:** pediu 2 produtos e chegou só 1 [r034618].\n- **Insatisfação sem motivo claro:** [r024860], [r015618].\n\nVárias reclamações ocorrem mesmo com entrega no prazo [r006528], [r018038], [r008148], [r034618]. Nesses casos o problema foi o produto ou o pedido, não o prazo.\n\n**Dimensão no recorte (11.185 avaliações com nota 1 ou 2)**\nA contagem é por palavra-chave, aproximada, e uma avaliação pode entrar em mais de um tema:\n- prazo e atraso: 3.182\n- produto não recebido: 2.998\n- atendimento e vendedor: 2.225\n- produto diferente ou errado: 997\n- defeito e qualidade: 902\n- item faltando ou entrega parcial: 679\n\nAs evidências recuperadas não trazem nenhum exemplo de \"produto não recebido\", embora esse tema tenha grande volume no recorte. Também não dá para interpretar os temas de elogio (qualidade, entrega rápida) que aparecem entre notas baixas.",
+    "segundos": 17.2
+  },
+  {
+    "esperado": "dentro",
+    "tipo": "evidencia",
+    "pergunta": "Quais avaliações sustentam a conclusão de que existem problemas recorrentes relacionados ao prazo de entrega?",
+    "filtros": [],
+    "veredito": "SUPORTADA",
+    "recusou": false,
+    "portao": {
+      "top_sim": 0.7446,
+      "cobertura": 0.71,
+      "ausentes": [
+        "sustentam",
+        "recorrente"
+      ],
+      "ok": true,
+      "motivo": null
+    },
+    "n_evidencias": 12,
+    "citados": [
+      "r011280",
+      "r011813",
+      "r012662",
+      "r016936",
+      "r018565",
+      "r020958",
+      "r022239",
+      "r025926",
+      "r026721",
+      "r031316",
+      "r033872",
+      "r036064"
+    ],
+    "citacoes_validas": true,
+    "resposta": "**Reclamação repetida pelo mesmo cliente**\n- [r022239] diz que a loja \"vem atrasando muito\" e que \"não é a primeira vez\".\n- [r026721] relata que é a segunda vez que tem problemas com entrega. O comentário não diz se o problema foi atraso.\n\n**Atraso real ou fora do prazo**\n- [r025926] teve entrega 17 dias após o prazo e diz que \"as entregas estão demorando demais\".\n- [r011280] teve entrega 2 dias após o prazo.\n- [r033872] e [r031316] relatam atraso e culpam problemas nos Correios. Nos dois, o dado estruturado diz \"entregue no prazo\", o que contradiz o comentário.\n\n**Prazo prometido considerado longo**\nVários clientes reclamam do prazo em si, mesmo com entrega dentro dele: [r036064], [r012662], [r016936], [r020958] e [r011813].\n\n**Fora do tema**\n[r011813] (item não entregue) e [r018565] (produtos faltando) tratam de outros problemas de entrega. Eles não sustentam a conclusão sobre prazo.\n\n**Apoio numérico**\nPelo recorte, 11.975 das 37.166 avaliações com comentário citam prazo e atraso na entrega. Essa contagem é por palavra-chave e aproximada. Ela indica que o tema é frequente, e não só um punhado de casos.\n\n**Ressalva**\nOs comentários misturam atraso efetivo e prazo longo demais. \"Problema recorrente\" vale para os dois, mas são causas diferentes.",
+    "segundos": 18.0
+  },
+  {
+    "esperado": "dentro",
+    "tipo": "tema",
+    "pergunta": "Os clientes reclamam de produto diferente do que foi anunciado?",
+    "filtros": [
+      "nota 1 a 3 (a pergunta pede reclamações)"
+    ],
+    "veredito": "SUPORTADA",
+    "recusou": false,
+    "portao": {
+      "top_sim": 0.8538,
+      "cobertura": 1.0,
+      "ausentes": [],
+      "ok": true,
+      "motivo": null
+    },
+    "n_evidencias": 12,
+    "citados": [
+      "r002637",
+      "r003366",
+      "r003922",
+      "r010893",
+      "r013625",
+      "r015699",
+      "r023353",
+      "r025802",
+      "r027937",
+      "r031938",
+      "r035178",
+      "r036375"
+    ],
+    "citacoes_validas": true,
+    "resposta": "Sim, os clientes reclamam de receber um produto diferente do anunciado. Nas avaliações recuperadas, vários relatos dizem que o item entregue não corresponde ao anúncio [r015699] [r031938] [r036375] [r010893] [r003922] [r023353] [r035178] [r003366] [r013625] [r025802] [r027937].\n\nO problema aparece em categorias variadas, como informática, telefonia, auto, moda feminina, cama/mesa/banho e eletrodomésticos [r015699] [r031938] [r036375] [r010893] [r002637] [r013625] [r027937]. Também aparece ao longo de 2017 e 2018 [r010893] [r023353] [r025802] [r031938].\n\nEm quase todos os casos a entrega foi no prazo [r015699] [r036375] [r010893] [r035178] [r013625]. Ou seja, a reclamação é sobre o que chegou, não sobre atraso.\n\nUm relato une o produto diferente à qualidade ruim [r002637]. Outro fala em produto \"divergente\" do que foi comprado [r025802].\n\nEm números, o recorte mostra 1.197 avaliações de nota 1 a 3 que citam produto diferente ou errado, de 14.560 com comentário. Esse número vem de uma busca aproximada por palavra-chave, então é só uma referência. Como o tema aparece em vários clientes, categorias e períodos, ele é uma queixa recorrente. Não dá para dizer, só com esses dados, que é a mais comum.",
+    "segundos": 10.5
+  },
+  {
+    "esperado": "dentro",
+    "tipo": "tema",
+    "pergunta": "Há reclamações sobre embalagem danificada ou mal feita?",
+    "filtros": [
+      "nota 1 a 3 (a pergunta pede reclamações)"
+    ],
+    "veredito": "PARCIAL",
+    "recusou": false,
+    "portao": {
+      "top_sim": 0.7447,
+      "cobertura": 1.0,
+      "ausentes": [],
+      "ok": true,
+      "motivo": null
+    },
+    "n_evidencias": 12,
+    "citados": [
+      "r012117",
+      "r012999",
+      "r013114",
+      "r028109",
+      "r028656",
+      "r029836",
+      "r033197",
+      "r034972"
+    ],
+    "citacoes_validas": true,
+    "resposta": "Sim, há reclamações sobre embalagem nas evidências, mas a amostra recuperada é pequena e o recorte não traz um tema numérico para \"embalagem danificada\" (o tema \"embalagem\" aparece em 332 avaliações do recorte de 14.560, por busca aproximada por palavra-chave, sem separar danificada de outras queixas).\n\nO que os clientes relatam:\n- **Embalagem danificada, amassada ou rasgada:** [r034972], [r033197], [r012117], [r013114], [r012999]. Em [r012117] a cliente atribui o problema ao fornecedor e à transportadora.\n- **Produto \"mal embalado\":** [r029836], [r028109].\n- **Produto quebrado junto com a embalagem ruim:** [r033197], [r029836], [r028109]. Nesses casos a reclamação vai além da embalagem e chega ao produto.\n- **Insatisfação genérica com a embalagem, sem detalhe:** [r028656].\n- **Falta de resposta da loja:** em [r033197] o cliente diz que contatou a loja e não teve retorno. Em [r029836] o problema não foi resolvido.\n\nLimites: todas as avaliações citadas foram entregues no prazo, então o problema aparece como falha de acondicionamento, não de atraso. Não dá para dizer, com estas evidências, a frequência do problema nem se ele se concentra em alguma categoria ou período.",
+    "segundos": 10.5
+  },
+  {
+    "esperado": "dentro",
+    "tipo": "tema",
+    "pergunta": "O que dizem sobre produtos que chegaram quebrados ou com defeito?",
+    "filtros": [],
+    "veredito": "SUPORTADA",
+    "recusou": false,
+    "portao": {
+      "top_sim": 0.7977,
+      "cobertura": 1.0,
+      "ausentes": [],
+      "ok": true,
+      "motivo": null
+    },
+    "n_evidencias": 12,
+    "citados": [
+      "r003445",
+      "r005383",
+      "r009799",
+      "r013408",
+      "r014313",
+      "r017569",
+      "r026831",
+      "r026858",
+      "r027147",
+      "r028109",
+      "r029172",
+      "r036045"
+    ],
+    "citacoes_validas": true,
+    "resposta": "**O que os clientes relatam**\n- **Produto quebrado na chegada:** é a queixa mais clara nas avaliações recuperadas. Aparece em várias categorias: brinquedos [r027147] [r014313], relógios/presentes [r009799], utilidades domésticas [r026858], eletrônicos [r026831], perfumaria [r017569] e móveis/decoração [r029172].\n- **Não é problema de prazo:** todas essas compras constam como entregues no prazo. Um cliente diz que \"chegou no prazo porém veio quebrado\" [r017569].\n- **Embalagem:** alguns atribuem o dano à embalagem ruim. Um cliente diz que não havia aviso de \"frágil\" na caixa e que suas 3 panelas de barro chegaram quebradas [r003445]. Outro fala em \"mal embalado\" e também em material ruim [r028109].\n- **Defeito de funcionamento ou qualidade:** há relatos genéricos de \"produto com defeito\" [r013408] [r005383].\n- **Dano parcial:** em um caso só alguns itens chegaram quebrados [r036045].\n- **Troca ou devolução:** um cliente diz estar tentando trocar ou devolver o produto [r029172].\n- **Notas:** nas avaliações recuperadas, as notas vão de 1 a 3.\n\n**Limites**\nPela busca por palavra-chave, 1947 avaliações do recorte citam \"defeito e qualidade\". Essa contagem é aproximada e mistura defeito com qualidade em geral, então não mede só produtos quebrados. A amostra recuperada tem 12 avaliações. Ela mostra os padrões acima, mas não permite dizer quais categorias concentram o problema.",
+    "segundos": 17.2
+  },
+  {
+    "esperado": "dentro",
+    "tipo": "tema",
+    "pergunta": "Como os clientes avaliam o atendimento dos vendedores?",
+    "filtros": [],
+    "veredito": "PARCIAL",
+    "recusou": false,
+    "portao": {
+      "top_sim": 0.7887,
+      "cobertura": 1.0,
+      "ausentes": [],
+      "ok": true,
+      "motivo": null
+    },
+    "n_evidencias": 12,
+    "citados": [
+      "r003987",
+      "r004610",
+      "r006973",
+      "r007530",
+      "r015670",
+      "r017251",
+      "r018044",
+      "r021640",
+      "r025133",
+      "r026110",
+      "r031500",
+      "r032127"
+    ],
+    "citacoes_validas": true,
+    "resposta": "Nas avaliações recuperadas, o atendimento dos vendedores aparece sempre de forma positiva. Isso é uma amostra pequena (12 avaliações) e não permite dizer como o conjunto dos clientes avalia o tema.\n\n- **Atenção e cordialidade:** os clientes descrevem os vendedores como atenciosos e prestativos [r032127] [r017251] [r004610] [r025133].\n- **Rapidez e eficiência:** há elogios à agilidade e ao desempenho em atender [r015670] [r031500] [r026110].\n- **Fidelidade:** alguns são clientes recorrentes e dizem estar sempre satisfeitos com a loja [r006973] [r003987].\n- **Elogio mesmo com problema:** uma cliente elogiou os vendedores apesar de a entrega ter chegado 24 dias após o prazo [r007530]. Dois comentários elogiosos vieram com nota 3 [r032127] [r018044].\n\n**Limites:**\n- Nenhuma avaliação recuperada traz crítica ao atendimento, então não dá para saber se existem queixas ou quão frequentes são.\n- O recorte indica que 5.346 avaliações citam \"atendimento e vendedor\", mas essa contagem vem de busca por palavra-chave e não informa se o tom é positivo ou negativo.\n- Uma avaliação recuperada não traz conteúdo útil [r021640].",
+    "segundos": 12.4
+  },
+  {
+    "esperado": "dentro",
+    "tipo": "tema",
+    "pergunta": "Há relatos de pedidos que chegaram incompletos, com itens faltando?",
+    "filtros": [],
+    "veredito": "SUPORTADA",
+    "recusou": false,
+    "portao": {
+      "top_sim": 0.8649,
+      "cobertura": 1.0,
+      "ausentes": [],
+      "ok": true,
+      "motivo": null
+    },
+    "n_evidencias": 12,
+    "citados": [
+      "r001140",
+      "r004140",
+      "r005458",
+      "r006941",
+      "r008773",
+      "r010732",
+      "r017559",
+      "r021211",
+      "r024219",
+      "r024504",
+      "r034923",
+      "r036013"
+    ],
+    "citacoes_validas": true,
+    "resposta": "Sim, há relatos claros de pedidos que chegaram incompletos, com itens faltando. Os clientes descrevem o problema de formas parecidas:\n\n- **Pedido chegou, mas faltando item ou produto:** [r010732], [r004140], [r024219], [r008773], [r024504], [r036013], [r001140]\n- **Itens faltando dentro do pedido:** [r021211], [r034923]. Em [r034923] o cliente diz que foi a primeira vez que isso aconteceu com ele.\n- **Falta de retorno do vendedor:** em [r006941], o cliente diz que ninguém respondeu seus e-mails sobre os produtos faltantes.\n- **Entrega parcial, com o restante pendente:** em [r017559], só 2 itens estavam disponíveis para retirada nos correios e um faltou. Em [r005458], o cliente aguarda o restante do pedido.\n\nOs relatos aparecem em várias categorias (utilidades domésticas, saúde e beleza, esporte, pet shop, automotivo, entre outras). Quase todos os pedidos foram entregues no prazo, então o problema parece estar na composição do pedido, e não no atraso. Só [r024219] teve atraso, de 1 dia.\n\nEm termos de volume, o recorte mostra que 1011 das 37.166 avaliações com comentário citam item faltando ou entrega parcial. Essa contagem vem de busca aproximada por palavra-chave, então é uma estimativa.",
+    "segundos": 10.0
+  },
+  {
+    "esperado": "dentro",
+    "tipo": "tema",
+    "pergunta": "Os clientes comentam sobre o preço e o custo-benefício?",
+    "filtros": [],
+    "veredito": "SUPORTADA",
+    "recusou": false,
+    "portao": {
+      "top_sim": 0.7056,
+      "cobertura": 1.0,
+      "ausentes": [],
+      "ok": true,
+      "motivo": null
+    },
+    "n_evidencias": 12,
+    "citados": [
+      "r002289",
+      "r004162",
+      "r007899",
+      "r010290",
+      "r010744",
+      "r015523",
+      "r016888",
+      "r017288",
+      "r019094",
+      "r028468",
+      "r028937"
+    ],
+    "citacoes_validas": true,
+    "resposta": "Sim, os clientes comentam sobre preço e custo-benefício. No recorte, 1450 avaliações com comentário citam o tema \"preço e custo-benefício\" (busca aproximada por palavra-chave).\n\nNas avaliações recuperadas, o tema aparece em categorias variadas (eletroportáteis, esporte e lazer, móveis, informática, papelaria, saúde e beleza, automotivo, entre outras) e em notas de 3 a 5:\n\n- **Custo-benefício como elogio:** vários clientes dizem que o produto tem bom custo-benefício [r017288] [r007899] [r010744] [r028468] [r028937] [r016888].\n- **Qualidade associada ao preço:** alguns ligam a qualidade ao valor pago, como \"qualidade excelente pelo preço\" [r019094] e produto \"de qualidade e de custo benefício\" [r004162].\n- **Preço justo ou adequado:** há menções a bom preço [r002289], preço justo [r010290] e produto de acordo com o preço [r015523].\n\nLimite: as avaliações recuperadas são todas positivas ou neutras (notas 3 a 5) sobre o tema. Elas não mostram se há críticas ao preço, então não dá para afirmar o contrário a partir delas. Também não dá para dizer que o preço é um assunto frequente em relação a outros temas além do que consta no recorte.",
+    "segundos": 10.2
+  },
+  {
+    "esperado": "dentro",
+    "tipo": "tema",
+    "pergunta": "Há clientes que dizem que nunca receberam o produto?",
+    "filtros": [],
+    "veredito": "SUPORTADA",
+    "recusou": false,
+    "portao": {
+      "top_sim": 0.8461,
+      "cobertura": 1.0,
+      "ausentes": [],
+      "ok": true,
+      "motivo": null
+    },
+    "n_evidencias": 12,
+    "citados": [
+      "r003737",
+      "r009451",
+      "r010733",
+      "r013474",
+      "r014539",
+      "r018407",
+      "r023628",
+      "r023801",
+      "r024701",
+      "r029940",
+      "r034844",
+      "r035277"
+    ],
+    "citacoes_validas": true,
+    "resposta": "Sim. Vários clientes relatam que nunca receberam o produto. Alguns exemplos:\n\n- Relatos diretos de que o produto \"nunca chegou\" ou \"nunca recebi\": [r024701], [r003737], [r009451], [r034844].\n- Clientes que dizem que reclamaram e não tiveram resposta ou satisfação: [r014539], [r035277], [r010733], [r029940].\n- Clientes que pagaram ou compraram há semanas ou meses e seguem sem o produto: [r034844], [r023628], [r023801], [r018407], [r013474].\n\nOs relatos aparecem em várias categorias de produto, como bebê, perfumaria, saúde e beleza, relógios, jardinagem e papelaria. Isso indica que não se limita a um tipo de item.\n\nEm números, o recorte mostra que 3.499 das 37.166 avaliações com comentário citam o tema \"produto não recebido\". Essa contagem vem de busca por palavra-chave e é aproximada, então pode incluir avaliações que só mencionam o assunto de passagem.\n\nUma ressalva: [r010733] tem nota 4 apesar de relatar que o produto não chegou. A nota nem sempre acompanha o conteúdo do comentário.",
+    "segundos": 9.3
+  },
+  {
+    "esperado": "dentro",
+    "tipo": "metadado",
+    "pergunta": "Quais são os principais problemas relatados nas avaliações com nota baixa?",
+    "filtros": [
+      "nota 1 ou 2 (cliente insatisfeito)"
+    ],
+    "veredito": "PARCIAL",
+    "recusou": false,
+    "portao": {
+      "top_sim": 0.6244,
+      "cobertura": 0.8,
+      "ausentes": [
+        "relatad"
+      ],
+      "ok": true,
+      "motivo": null
+    },
+    "n_evidencias": 12,
+    "citados": [
+      "r002401",
+      "r002803",
+      "r006344",
+      "r006495",
+      "r009454",
+      "r009939",
+      "r017975",
+      "r018147",
+      "r019775",
+      "r020870",
+      "r028047",
+      "r029660"
+    ],
+    "citacoes_validas": true,
+    "resposta": "**O que o recorte mostra (11.185 avaliações com nota 1 ou 2):** pela busca por palavra-chave, que é aproximada, os temas mais citados são prazo e atraso na entrega (3.182), produto não recebido (2.998) e atendimento e vendedor (2.225). Em seguida vêm produto diferente ou errado (997), defeito e qualidade (902), item faltando ou entrega parcial (679) e embalagem (222). Uma avaliação pode contar em mais de um tema.\n\n**O que as avaliações recuperadas confirmam:**\n- **Baixa qualidade ou produto inferior ao esperado.** É o tema mais presente na amostra, em categorias variadas [r006344] [r009939] [r018147] [r002803] [r028047] [r002401]. Vários desses pedidos chegaram no prazo, então o problema não é só logística.\n- **Atraso e não recebimento.** Há um caso de demora junto com baixa qualidade [r019775] e um cliente que ainda não recebeu o material [r020870].\n- **Entrega incompleta.** Um pedido veio faltando um item que não chegou [r006495].\n- **Divergência com o anunciado ou com a documentação.** Produto \"inferior ao anunciado\" [r002401] e nota fiscal com valor menor que o pago [r029660].\n\n**Limites:** a amostra recuperada pende para qualidade. Ela quase não ilustra os dois temas mais frequentes no recorte, atraso e não recebimento, e não traz nenhum exemplo sobre atendimento e vendedor. Para esses temas só há a contagem por palavra-chave, sem avaliações que mostrem o que os clientes relatam. [r017975] e [r009454] não informam o motivo da nota.",
+    "segundos": 14.9
+  },
+  {
+    "esperado": "dentro",
+    "tipo": "metadado",
+    "pergunta": "O que os clientes mais elogiam em produtos de cama, mesa e banho?",
+    "filtros": [
+      "nota 4 ou 5 (a pergunta pede elogios)",
+      "categoria: bed_bath_table"
+    ],
+    "veredito": "SUPORTADA",
+    "recusou": false,
+    "portao": {
+      "top_sim": 0.6484,
+      "cobertura": 1.0,
+      "ausentes": [],
+      "ok": true,
+      "motivo": null
+    },
+    "n_evidencias": 12,
+    "citados": [
+      "r000052",
+      "r006750",
+      "r007609",
+      "r008777",
+      "r015962",
+      "r017578",
+      "r019771",
+      "r027760",
+      "r028110",
+      "r029713",
+      "r031524",
+      "r031754"
+    ],
+    "citacoes_validas": true,
+    "resposta": "Entre as avaliações de nota 4 e 5 da categoria, os elogios mais recorrentes são qualidade, aparência e caimento.\n\n- **Qualidade do produto:** aparece como \"ótimo produto\", \"excelente\" e \"de muita qualidade\" [r006750] [r019771] [r007609] [r031754] [r000052].\n- **Beleza e efeito no quarto ou banheiro:** os clientes destacam que a cama ou o ambiente ficou mais bonito, com estampa, bordado, cetim ou acabamento [r031524] [r000052] [r029713] [r027760] [r008777] [r017578].\n- **Tamanho e caimento:** dizem que serviu certo na cama [r006750] [r017578] [r031754].\n- **Recomendação e recompra:** há quem recomende [r031524] [r019771] [r008777] e quem diga que compraria novamente [r028110]. Dois clientes elogiam também a loja [r031524] [r027760].\n\n**Números do recorte:** de 2.166 avaliações com comentário, 962 citam qualidade como elogio e 747 citam entrega rápida. A contagem é por palavra-chave, portanto aproximada. Nenhuma das avaliações recuperadas ilustra o elogio à entrega, então não posso descrevê-lo além do número.\n\n**Ressalva:** uma avaliação de nota 4 elogia o produto, mas reclama de itens faltando no pedido [r015962]. O recorte registra 15 avaliações sobre item faltando ou entrega parcial, e isso não é elogio.",
+    "segundos": 16.1
+  },
+  {
+    "esperado": "dentro",
+    "tipo": "metadado",
+    "pergunta": "Quais reclamações aparecem nas compras de informática?",
+    "filtros": [
+      "nota 1 a 3 (a pergunta pede reclamações)",
+      "categoria: computers_accessories, computers, pc_gamer, tablets_printing_image"
+    ],
+    "veredito": "SUPORTADA",
+    "recusou": false,
+    "portao": {
+      "top_sim": 0.6465,
+      "cobertura": 1.0,
+      "ausentes": [],
+      "ok": true,
+      "motivo": null
+    },
+    "n_evidencias": 12,
+    "citados": [
+      "r001474",
+      "r005244",
+      "r008061",
+      "r013199",
+      "r016440",
+      "r016642",
+      "r017325",
+      "r018579",
+      "r019483",
+      "r031759",
+      "r032642",
+      "r034357"
+    ],
+    "citacoes_validas": true,
+    "resposta": "As reclamações de informática (notas 1 a 3) se concentram em entrega e atendimento. Há também problemas menores de produto e de pedido.\n\n- **Atraso e produto não entregue:** clientes dizem que não receberam ou que o pedido está atrasado [r031759] [r034357] [r032642] [r018579] [r008061]. No recorte, 313 avaliações citam prazo e atraso e 220 citam produto não recebido (busca por palavra-chave, aproximada).\n- **Atendimento sem resposta:** reclamações enviadas ficam sem retorno [r001474] [r032642] [r019483]. Também há queixa de que não existe canal para reclamar [r031759] [r034357] [r016440]. Um cliente chegou a acionar o Procon [r016440]. O recorte tem 215 avaliações sobre atendimento e vendedor.\n- **Item faltando ou entrega parcial:** o cliente comprou 2 unidades e recebeu só uma [r016440], ou o segundo item chegou separado e a nota fiscal do primeiro já listava os dois [r005244]. São 50 avaliações no tema.\n- **Produto diferente do pedido:** o cliente pediu um produto e recebeu outro, e quer o dinheiro de volta [r013199]. São 76 avaliações no tema.\n- **Defeito:** um dos dois computadores comprados chegou com defeito [r001474]. São 99 avaliações no tema.\n- **Falhas no pedido:** a compra foi cancelada antes da nota fiscal e o produto foi entregue mesmo assim [r016642]. Em outro caso, o cartão aprovou só um dos dois itens [r017325].\n\nEssas evidências são poucas, então os temas ilustram o recorte, mas não o quantificam. Quem dá a dimensão são as contagens do recorte.",
+    "segundos": 15.7
+  },
+  {
+    "esperado": "dentro",
+    "tipo": "metadado",
+    "pergunta": "Quais temas aparecem nas avaliações de pedidos que chegaram com atraso?",
+    "filtros": [
+      "pedidos que chegaram depois da data estimada"
+    ],
+    "veredito": "PARCIAL",
+    "recusou": false,
+    "portao": {
+      "top_sim": 0.7579,
+      "cobertura": 1.0,
+      "ausentes": [],
+      "ok": true,
+      "motivo": null
+    },
+    "n_evidencias": 12,
+    "citados": [
+      "r001241",
+      "r007778",
+      "r008227",
+      "r008494",
+      "r008790",
+      "r011280",
+      "r016138",
+      "r016974",
+      "r020236",
+      "r027932",
+      "r031167"
+    ],
+    "citacoes_validas": true,
+    "resposta": "**O que as evidências confirmam: atraso na entrega.** Todas as avaliações recuperadas tratam do prazo. Os clientes dizem que o pedido chegou com atraso [r027932] [r016974] [r008790] [r020236], que há demora [r031167] [r008227] ou que o produto não chegou no prazo [r007778]. Alguns pedem esclarecimentos sobre a entrega atrasada [r011280] ou dizem que só conseguem avaliar o prazo, e não o produto [r001241]. Outros dizem que vão reavaliar quando o pedido chegar [r016138]. Um cliente diz que é a primeira vez que isso acontece com ele [r008494]. As notas dessas avaliações vão de 1 a 3.\n\n**O que só o recorte indica, sem avaliações para ilustrar.** A busca por palavra-chave, que é aproximada, mostra estes temas entre as 3.753 avaliações com comentário:\n- prazo e atraso: 1.832\n- produto não recebido: 1.571\n- atendimento e vendedor: 672\n- elogio à qualidade: 370\n- elogio à entrega rápida: 259\n- preço: 79\n- produto diferente ou errado: 73\n- defeito: 63\n- item faltando: 39\n- embalagem: 30\n\nTambém pelo recorte, 2.462 avaliações têm nota 1.\n\n**Limite.** Não recuperei avaliações sobre produto não recebido, atendimento, produto errado ou defeito. Por isso não posso dizer o que os clientes relatam nesses temas, só que as palavras aparecem. Os elogios dentro de pedidos atrasados também não têm exemplo nas evidências, então não sei explicar por que aparecem.",
+    "segundos": 13.7
+  },
+  {
+    "esperado": "dentro",
+    "tipo": "metadado",
+    "pergunta": "O que os clientes relatam sobre as compras feitas em 2017?",
+    "filtros": [
+      "ano da compra: 2017"
+    ],
+    "veredito": "PARCIAL",
+    "recusou": false,
+    "portao": {
+      "top_sim": 0.6508,
+      "cobertura": 1.0,
+      "ausentes": [],
+      "ok": true,
+      "motivo": null
+    },
+    "n_evidencias": 12,
+    "citados": [
+      "r012929",
+      "r013873",
+      "r018044",
+      "r021726",
+      "r024037",
+      "r025411",
+      "r030397",
+      "r033767",
+      "r034045",
+      "r036210",
+      "r037068",
+      "r037085"
+    ],
+    "citacoes_validas": true,
+    "resposta": "As evidências são só 12 avaliações, então dão um retrato qualitativo, não uma conclusão sobre as 16.443 do recorte.\n\n**Problemas com entrega:**\n- Vários clientes dizem que não receberam o produto, ou que não houve entrega até a data prevista [r012929] [r025411] [r021726] [r036210].\n- Um deles reclama de entrega demorada, mas sem tom de grande insatisfação [r033767].\n- Esses relatos aparecem com notas baixas, 1 ou 2 [r012929] [r025411] [r021726] [r036210].\n\n**Satisfação:**\n- Há elogios genéricos à compra e ao produto [r030397] [r034045] [r024037] [r037085].\n- Também há elogios à entrega no prazo ou antes dele [r037068] [r013873].\n- Um cliente cita bom atendimento [r018044].\n\n**Números do recorte (2017):**\n- Notas: 7.719 avaliações com nota 5 e 3.915 com nota 1. As notas 2, 3 e 4 somam 981, 1.505 e 2.323.\n- Por palavra-chave, que é uma busca aproximada, \"prazo e atraso\" aparece em 5.373 avaliações e \"entrega rápida\" em 4.738. Isso indica que a entrega divide opiniões.\n- Outros temas aparecem bem menos: produto não recebido (1.456), defeito (867), embalagem (555), produto errado (540) e item faltando (441).\n\n**Limite:** as evidências recuperadas quase não tratam de defeito, embalagem ou produto errado. Esses temas só aparecem como contagem no recorte, sem comentários que os detalhem.",
+    "segundos": 15.5
+  },
+  {
+    "esperado": "dentro",
+    "tipo": "metadado",
+    "pergunta": "Quais problemas aparecem nas avaliações de brinquedos?",
+    "filtros": [
+      "categoria: toys"
+    ],
+    "veredito": "PARCIAL",
+    "recusou": false,
+    "portao": {
+      "top_sim": 0.6453,
+      "cobertura": 1.0,
+      "ausentes": [],
+      "ok": true,
+      "motivo": null
+    },
+    "n_evidencias": 12,
+    "citados": [
+      "r003482",
+      "r003633",
+      "r016580",
+      "r019280",
+      "r019738",
+      "r020905",
+      "r025877",
+      "r028535",
+      "r030134",
+      "r033593",
+      "r034572",
+      "r036291"
+    ],
+    "citacoes_validas": true,
+    "resposta": "As avaliações recuperadas mostram alguns problemas recorrentes em brinquedos, mas são poucas (12) para ordenar ou dimensionar os temas.\n\n- **Qualidade ruim e produto frágil:** brinquedo \"descartável\", que se desmancha, solta peças ou quebra logo [r034572] [r016580] [r003482] [r025877]. Também há queixa de encaixe ruim, com peças que se soltam sozinhas [r019738].\n- **Defeito de fábrica:** brinquedo que chegou com defeito, com dificuldade para a troca [r036291].\n- **Item faltando ou embalagem danificada:** faltaram parafusos [r003633] e adesivos [r030134]. Uma caixa chegou rasgada, como se já tivesse sido aberta [r030134]. Outra veio com suportes plásticos presos e sem instrução para retirá-los [r033593].\n- **Pilhas gastas:** as baterias vieram descarregadas, o que impediu de ver o som e as luzes do brinquedo [r020905].\n- **Expectativa diferente do anunciado:** o cliente esperava bonecos originais e recebeu produto de fabricação chinesa, sem essa informação na descrição [r028535].\n- **Não entrega:** um caso de produto que não chegou, com 50 dias de atraso [r019280].\n\nPelo recorte, \"prazo e atraso na entrega\" (410 avaliações) e \"defeito e qualidade\" (81) aparecem entre os temas buscados, e \"produto não recebido\" aparece em 100. A busca é por palavra-chave e aproximada. Quase todas as avaliações recuperadas foram entregues no prazo, então os problemas citados acima são sobretudo de produto, não de logística.",
+    "segundos": 11.3
+  },
+  {
+    "esperado": "dentro",
+    "tipo": "metadado",
+    "pergunta": "O que os clientes de telefonia dizem sobre a entrega?",
+    "filtros": [
+      "categoria: telephony, fixed_telephony"
+    ],
+    "veredito": "SUPORTADA",
+    "recusou": false,
+    "portao": {
+      "top_sim": 0.6829,
+      "cobertura": 1.0,
+      "ausentes": [],
+      "ok": true,
+      "motivo": null
+    },
+    "n_evidencias": 12,
+    "citados": [
+      "r000481",
+      "r001493",
+      "r005140",
+      "r005514",
+      "r015215",
+      "r016255",
+      "r018565",
+      "r019263",
+      "r021409",
+      "r026737",
+      "r027764",
+      "r028350"
+    ],
+    "citacoes_validas": true,
+    "resposta": "Os clientes de telefonia falam de entrega em dois sentidos opostos, e as evidências mostram os dois.\n\n**Elogios à rapidez:** há quem destaque a agilidade e a chegada antes da data [r000481] [r001493] [r027764]. Um cliente desanimou com a data prevista, mas o produto chegou rápido [r016255]. Outro elogia a entrega no prazo junto com o atendimento [r015215].\n\n**Reclamações de atraso e falta de retorno:**\n- Atrasos de 6 e 17 dias, com cliente sem resposta sobre o pedido [r026737] [r021409].\n- Produto ainda não entregue e pedido de explicação sobre o atraso [r028350].\n- Entrega com problemas e pedido incompleto [r018565].\n- Reclamação de demora mesmo com entrega registrada no prazo [r005514], ou pedido de entrega mais rápida [r005140]. Nesses casos, a expectativa de rapidez pesa mais que o atraso em si.\n\n**Frete:** um cliente achou o frete caro [r019263].\n\n**Números do recorte (1.753 avaliações com comentário):** a busca por palavra-chave, que é aproximada, encontrou 554 menções a prazo e atraso, 493 a entrega rápida, 132 a produto não recebido e 43 a item faltando ou entrega parcial. Como a busca é aproximada, não dá para dizer qual lado é o mais comum. As 12 avaliações recuperadas ilustram os temas, mas não representam o recorte inteiro.",
+    "segundos": 13.9
+  },
+  {
+    "esperado": "dentro",
+    "tipo": "metadado",
+    "pergunta": "Quais elogios aparecem nas avaliações de perfumaria?",
+    "filtros": [
+      "nota 4 ou 5 (a pergunta pede elogios)",
+      "categoria: perfumery"
+    ],
+    "veredito": "SUPORTADA",
+    "recusou": false,
+    "portao": {
+      "top_sim": 0.6158,
+      "cobertura": 1.0,
+      "ausentes": [],
+      "ok": true,
+      "motivo": null
+    },
+    "n_evidencias": 12,
+    "citados": [
+      "r000283",
+      "r005482",
+      "r006241",
+      "r007775",
+      "r008120",
+      "r010449",
+      "r010923",
+      "r016337",
+      "r022419",
+      "r025539",
+      "r026180",
+      "r036354"
+    ],
+    "citacoes_validas": true,
+    "resposta": "Nas avaliações de perfumaria com nota 4 ou 5 (741 com comentário), os elogios se concentram em seis pontos:\n\n- **Qualidade e fragrância:** os clientes chamam o perfume de ótimo, maravilhoso ou excelente [r000283, r008120, r010449, r026180, r010923]. Pelo recorte, 326 avaliações citam qualidade como elogio, por busca aproximada por palavra-chave.\n- **Duração e suavidade:** uma cliente destaca que o perfume é suave e permanece bastante tempo no corpo [r006241]. Outra elogia a boa fixação, mas diz que a expansão do cheiro é pequena [r022419].\n- **Entrega rápida:** há relatos de chegada em 7 dias [r025539] e de entrega \"super rápida\" [r016337]. O recorte indica 340 avaliações com elogio à entrega rápida.\n- **Atendimento e vendedor:** aparecem elogios ao vendedor e à loja [r007775, r010923]. O recorte aponta 89 avaliações sobre atendimento e vendedor, sem separar elogio de crítica.\n- **Embalagem:** um cliente elogia o perfume bem acondicionado em papel bolha, sem risco de dano [r005482]. O recorte indica 42 avaliações sobre embalagem.\n- **Preço:** os clientes mencionam um bom valor pelo produto [r006241, r036354]. O recorte indica 34 avaliações sobre preço e custo-benefício.\n\nEssas contagens vêm de busca por palavra-chave e uma avaliação pode contar em mais de um tema. As avaliações recuperadas são uma amostra pequena do recorte, então os temas valem como retrato qualitativo e não como ranking.",
+    "segundos": 13.2
+  },
+  {
+    "esperado": "fora",
+    "tipo": "externo",
+    "pergunta": "Qual o preço do iPhone 15 na Amazon?",
+    "filtros": [],
+    "veredito": "BARRADA",
+    "recusou": true,
+    "portao": {
+      "top_sim": 0.5107,
+      "cobertura": 1.0,
+      "ausentes": [],
+      "ok": false,
+      "motivo": "pouca_evidencia"
+    },
+    "n_evidencias": 12,
+    "citados": [],
+    "citacoes_validas": true,
+    "resposta": "Não encontrei avaliações suficientemente próximas da pergunta para sustentar uma resposta.",
+    "segundos": 0.5
+  },
+  {
+    "esperado": "fora",
+    "tipo": "externo",
+    "pergunta": "Quem ganhou a Copa do Mundo de 2018?",
+    "filtros": [
+      "ano da compra: 2018"
+    ],
+    "veredito": "BARRADA",
+    "recusou": true,
+    "portao": {
+      "top_sim": 0.4967,
+      "cobertura": 1.0,
+      "ausentes": [],
+      "ok": false,
+      "motivo": "pouca_evidencia"
+    },
+    "n_evidencias": 12,
+    "citados": [],
+    "citacoes_validas": true,
+    "resposta": "Não encontrei avaliações suficientemente próximas da pergunta para sustentar uma resposta.",
+    "segundos": 0.4
+  },
+  {
+    "esperado": "fora",
+    "tipo": "externo",
+    "pergunta": "Como fazer bolo de cenoura?",
+    "filtros": [],
+    "veredito": "BARRADA",
+    "recusou": true,
+    "portao": {
+      "top_sim": 0.4582,
+      "cobertura": 0.67,
+      "ausentes": [
+        "cenour"
+      ],
+      "ok": false,
+      "motivo": "pouca_evidencia"
+    },
+    "n_evidencias": 12,
+    "citados": [],
+    "citacoes_validas": true,
+    "resposta": "Não encontrei avaliações suficientemente próximas da pergunta para sustentar uma resposta.",
+    "segundos": 0.3
+  },
+  {
+    "esperado": "fora",
+    "tipo": "externo",
+    "pergunta": "Qual a capital da França?",
+    "filtros": [],
+    "veredito": "BARRADA",
+    "recusou": true,
+    "portao": {
+      "top_sim": 0.3802,
+      "cobertura": 0.5,
+      "ausentes": [
+        "franc"
+      ],
+      "ok": false,
+      "motivo": "pouca_evidencia"
+    },
+    "n_evidencias": 12,
+    "citados": [],
+    "citacoes_validas": true,
+    "resposta": "Não encontrei avaliações suficientemente próximas da pergunta para sustentar uma resposta.",
+    "segundos": 0.4
+  },
+  {
+    "esperado": "fora",
+    "tipo": "empresa",
+    "pergunta": "Qual será o faturamento da Olist em 2025?",
+    "filtros": [],
+    "veredito": "BARRADA",
+    "recusou": true,
+    "portao": {
+      "top_sim": 0.4077,
+      "cobertura": 0.67,
+      "ausentes": [
+        "olist"
+      ],
+      "ok": false,
+      "motivo": "fora_do_periodo",
+      "ano": 2025
+    },
+    "n_evidencias": 12,
+    "citados": [],
+    "citacoes_validas": true,
+    "resposta": "A base cobre compras de setembro de 2016 a outubro de 2018, então não há avaliações do período citado na pergunta.",
+    "segundos": 0.3
+  },
+  {
+    "esperado": "fora",
+    "tipo": "empresa",
+    "pergunta": "Quantos funcionários a Olist tem hoje?",
+    "filtros": [],
+    "veredito": "BARRADA",
+    "recusou": true,
+    "portao": {
+      "top_sim": 0.4897,
+      "cobertura": 0.67,
+      "ausentes": [
+        "olist"
+      ],
+      "ok": false,
+      "motivo": "pouca_evidencia"
+    },
+    "n_evidencias": 12,
+    "citados": [],
+    "citacoes_validas": true,
+    "resposta": "Não encontrei avaliações suficientemente próximas da pergunta para sustentar uma resposta.",
+    "segundos": 0.3
+  },
+  {
+    "esperado": "fora",
+    "tipo": "concorrente",
+    "pergunta": "O que os clientes acham do Mercado Livre?",
+    "filtros": [],
+    "veredito": "PARCIAL",
+    "recusou": false,
+    "portao": {
+      "top_sim": 0.6269,
+      "cobertura": 1.0,
+      "ausentes": [],
+      "ok": true,
+      "motivo": null
+    },
+    "n_evidencias": 12,
+    "citados": [
+      "r004042",
+      "r006382",
+      "r009625",
+      "r020971",
+      "r024093",
+      "r027531",
+      "r031038"
+    ],
+    "citacoes_validas": true,
+    "resposta": "As avaliações não avaliam o Mercado Livre em si. Ele aparece só como termo de comparação com a loja onde o cliente comprou, então dá para dizer como é visto nessas comparações, mas não o que os clientes acham dele em geral.\n\n**Nas comparações, o Mercado Livre sai favorecido:**\n- **Prazo:** clientes dizem que lá o produto chega mais rápido, em menos de 7 dias [r031038], por PAC enquanto o pedido da loja não chegava [r009625], ou que o Mercado Livre \"entrega mais rápido\" [r006382].\n- **Frete:** dois clientes citam frete grátis ou mais barato no Mercado Livre [r027531, r031038].\n- **Comunicação:** um cliente diz que o Mercado Livre controla e avisa sobre atrasos, ao contrário da loja [r004042].\n\n**Menções ambíguas:**\n- Um cliente reclama que a loja passou a funcionar como um \"Mercado Livre\" e que os produtos raramente chegam corretos [r024093].\n- Outro diz que o produto, que veio do Mercado Livre, estava alterado e não funcionava [r020971]. A queixa é contra a loja e o produto, e não fica claro se ele culpa o Mercado Livre.\n\nO recorte não informa quantas avaliações mencionam o Mercado Livre. Os exemplos acima são poucos e não permitem concluir qual é a visão predominante.",
+    "segundos": 16.1
+  },
+  {
+    "esperado": "fora",
+    "tipo": "concorrente",
+    "pergunta": "Quais são as melhores lojas da Shopee?",
+    "filtros": [],
+    "veredito": "SEM_SUPORTE",
+    "recusou": true,
+    "portao": {
+      "top_sim": 0.7624,
+      "cobertura": 0.75,
+      "ausentes": [
+        "shopee"
+      ],
+      "ok": true,
+      "motivo": null
+    },
+    "n_evidencias": 12,
+    "citados": [],
+    "citacoes_validas": true,
+    "resposta": "As avaliações recuperadas não sustentam uma resposta para essa pergunta. A base contém avaliações de clientes de um e-commerce da Olist (2016–2018) e não traz dados sobre a Shopee, então ela não permite apontar as melhores lojas dessa plataforma.",
+    "segundos": 7.4
+  },
+  {
+    "esperado": "fora",
+    "tipo": "externo",
+    "pergunta": "Explique como funciona um modelo de linguagem.",
+    "filtros": [],
+    "veredito": "BARRADA",
+    "recusou": true,
+    "portao": {
+      "top_sim": 0.5376,
+      "cobertura": 0.5,
+      "ausentes": [
+        "explique",
+        "linguagem"
+      ],
+      "ok": false,
+      "motivo": "pouca_evidencia"
+    },
+    "n_evidencias": 12,
+    "citados": [],
+    "citacoes_validas": true,
+    "resposta": "Não encontrei avaliações suficientemente próximas da pergunta para sustentar uma resposta.",
+    "segundos": 0.4
+  },
+  {
+    "esperado": "fora",
+    "tipo": "externo",
+    "pergunta": "Qual a previsão do tempo para amanhã em São Paulo?",
+    "filtros": [],
+    "veredito": "BARRADA",
+    "recusou": true,
+    "portao": {
+      "top_sim": 0.5312,
+      "cobertura": 1.0,
+      "ausentes": [],
+      "ok": false,
+      "motivo": "pouca_evidencia"
+    },
+    "n_evidencias": 12,
+    "citados": [],
+    "citacoes_validas": true,
+    "resposta": "Não encontrei avaliações suficientemente próximas da pergunta para sustentar uma resposta.",
+    "segundos": 0.5
+  },
+  {
+    "esperado": "fora",
+    "tipo": "empresa",
+    "pergunta": "Qual o telefone do suporte da Olist?",
+    "filtros": [
+      "categoria: telephony, fixed_telephony"
+    ],
+    "veredito": "BARRADA",
+    "recusou": true,
+    "portao": {
+      "top_sim": 0.5446,
+      "cobertura": 0.5,
+      "ausentes": [
+        "olist"
+      ],
+      "ok": false,
+      "motivo": "pouca_evidencia"
+    },
+    "n_evidencias": 12,
+    "citados": [],
+    "citacoes_validas": true,
+    "resposta": "Não encontrei avaliações suficientemente próximas da pergunta para sustentar uma resposta.",
+    "segundos": 0.1
+  },
+  {
+    "esperado": "fora",
+    "tipo": "sem_base",
+    "pergunta": "Os clientes elogiam o serviço de assinatura de streaming?",
+    "filtros": [
+      "nota 4 ou 5 (a pergunta pede elogios)"
+    ],
+    "veredito": "SEM_SUPORTE",
+    "recusou": true,
+    "portao": {
+      "top_sim": 0.6824,
+      "cobertura": 0.67,
+      "ausentes": [
+        "streaming"
+      ],
+      "ok": true,
+      "motivo": null
+    },
+    "n_evidencias": 12,
+    "citados": [],
+    "citacoes_validas": true,
+    "resposta": "As avaliações recuperadas não sustentam uma resposta para essa pergunta. A base é de avaliações de compras em um e-commerce, e nada nela trata de serviço de assinatura de streaming; os elogios recuperados falam de \"serviço\" de forma genérica, sem relação com esse tipo de produto.",
+    "segundos": 7.7
+  },
+  {
+    "esperado": "fora",
+    "tipo": "sem_base",
+    "pergunta": "O que os clientes dizem sobre a entrega por drone?",
+    "filtros": [],
+    "veredito": "SEM_SUPORTE",
+    "recusou": true,
+    "portao": {
+      "top_sim": 0.6616,
+      "cobertura": 1.0,
+      "ausentes": [],
+      "ok": true,
+      "motivo": null
+    },
+    "n_evidencias": 12,
+    "citados": [],
+    "citacoes_validas": true,
+    "resposta": "As avaliações recuperadas não sustentam uma resposta para essa pergunta. As avaliações recuperadas falam de rapidez e prazo de entrega em geral, mas nenhuma menciona entrega por drone, então a base não permite responder a essa pergunta.",
+    "segundos": 7.3
+  },
+  {
+    "esperado": "fora",
+    "tipo": "sem_base",
+    "pergunta": "Quais são as avaliações de clientes de 2020?",
+    "filtros": [],
+    "veredito": "BARRADA",
+    "recusou": true,
+    "portao": {
+      "top_sim": 0.6003,
+      "cobertura": 1.0,
+      "ausentes": [],
+      "ok": false,
+      "motivo": "fora_do_periodo",
+      "ano": 2020
+    },
+    "n_evidencias": 12,
+    "citados": [],
+    "citacoes_validas": true,
+    "resposta": "A base cobre compras de setembro de 2016 a outubro de 2018, então não há avaliações do período citado na pergunta.",
+    "segundos": 0.5
+  },
+  {
+    "esperado": "fora",
+    "tipo": "externo",
+    "pergunta": "Escreva um poema sobre o mar.",
+    "filtros": [],
+    "veredito": "BARRADA",
+    "recusou": true,
+    "portao": {
+      "top_sim": 0.5339,
+      "cobertura": 0.0,
+      "ausentes": [
+        "escrev",
+        "poem",
+        "mar"
+      ],
+      "ok": false,
+      "motivo": "fora_do_vocabulario"
+    },
+    "n_evidencias": 12,
+    "citados": [],
+    "citacoes_validas": true,
+    "resposta": "A pergunta fala de termos que não aparecem nas avaliações (escrev, poem, mar). A base só tem comentários de clientes sobre pedidos, e não dá para responder a isso a partir dela.",
+    "segundos": 0.4
+  }
+]

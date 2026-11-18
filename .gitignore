@@ -1,0 +1,19 @@
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+data/raw/
+data/processed/
+data/index/
+*.parquet
+
+.env
+.DS_Store
+Thumbs.db
+
+# anotações do cofre e enunciado, fora do repositório público
+PLANO_TECH_CHALLENGE.md
+ROTEIRO_VIDEO.md
+GUIA_DO_PROJETO.md
+Objetivo Tech Challenge - Fase 4.pdf
