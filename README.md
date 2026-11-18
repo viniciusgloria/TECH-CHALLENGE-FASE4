@@ -6,6 +6,8 @@ Vinícius Gomes Machado Gloria
 
 Perguntas em linguagem natural sobre as avaliações de clientes da Olist, com resposta apoiada em avaliações reais e citadas.
 
+Vídeo de apresentação (até 7 minutos): https://www.loom.com/share/218f7650ff374a4ab0dbc59a40b7a2ba
+
 
 ## O problema
 
